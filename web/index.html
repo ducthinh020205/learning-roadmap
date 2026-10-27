@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cua toi</title>
+</head>
+<body>
+    <h1>Chao mung den voi trang web cua toi!</h1>
+    <p>Day la mot doan van ban mau de minh co the kiem tra trang web cua minh.</p>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Ten</th>
+            <th>Tuoi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyen Van A</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Tran Thi B</td>
+            <td>30</td>
+        </tr>
+    </table>
+    <form action="/submit" method="post">
+        <label for="name">Ten:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="age">Tuoi:</label>
+            <input type="number" id="age" name="age" required>
+            <br>
+            <input type="submit" value="Gui">
+
+
+        </form>
+        <button onclick="alert('Ban da nhan nut!')">Nhan vao day</button>
+</body>
+</html>
